@@ -1,17 +1,44 @@
 :root {
-    --grid-cols: 1;
+    --grid-colums: 1;
     --grid-rows: 1;
+  }
+  body {
+      background-color: #ededed;
+  }
+
+  .container2{
+      display: flex;
+      height: 500px;
+      width: 500px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 500px;
   }
 
 #container{
     display: grid;
-    grid-gap: 1em;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
 }
 
 .grid-item{
-    padding: 1em;
-    border: 1px solid #ddd;
+    padding: 0px;
+    /* border: 1px solid #ddd; */
+    text-align: center;
+}
+
+/* .grid-item:hover{
+    background-color:rebeccapurple;
+    /* background: 
+    linear-gradient(to right, rebeccapurple 50%, #3d3d3d 50%) 0 0 / 50px 25px repeat-x,
+    linear-gradient(to right, rebeccapurple 50%, #222    50%) 0 0 / 50px 50px repeat-x,
+    linear-gradient(to right, rebeccapurple 50%, #868686 50%) 0 0 / 50px 75px repeat-x,
+    linear-gradient(to right,    rebeccapurple 50%, #3d3d3d 50%) 0 0 / 50px 100px repeat-x; 
+} */
+
+h1{
     text-align: center;
 }
