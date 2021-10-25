@@ -9,10 +9,11 @@
   .container2{
       display: flex;
       height: 500px;
-      width: 500px;
+      width: 1000px;
       justify-content: center;
       align-items: center;
-      margin-left: 500px;
+      margin-left: 200px;
+      gap: 300px;
   }
 
 #container{
@@ -30,15 +31,12 @@
     text-align: center;
 }
 
-/* .grid-item:hover{
-    background-color:rebeccapurple;
-    /* background: 
-    linear-gradient(to right, rebeccapurple 50%, #3d3d3d 50%) 0 0 / 50px 25px repeat-x,
-    linear-gradient(to right, rebeccapurple 50%, #222    50%) 0 0 / 50px 50px repeat-x,
-    linear-gradient(to right, rebeccapurple 50%, #868686 50%) 0 0 / 50px 75px repeat-x,
-    linear-gradient(to right,    rebeccapurple 50%, #3d3d3d 50%) 0 0 / 50px 100px repeat-x; 
-} */
-
 h1{
     text-align: center;
+}
+
+#Resizebtn{
+ height: 40px;
+ width: 100px;
+ text-align: center;   
 }
